@@ -14,7 +14,7 @@
 </head>
 <body>
     
-    <header>
+    <header id="header">
         <div class="wrapper">
             <div class="header_con">
 
@@ -194,7 +194,8 @@
                         <h2 class="heading2">Contact Me</h2>
                     </div>
     
-                    <form class="footer_form" id="submit_formmessage" method="post" action="#">
+                    <form class="footer_form" id="submit_formmessage" action="https://api.web3forms.com/submit" method="POST">
+                        <input type="hidden" name="access_key" value="d960fdb8-19be-4d7a-949f-70c4922044e8">
                         <input class="form_fullname" type="text" name="Full_Name" placeholder="*Full Name" required>
                         <input  class="form_email" type="email" name="Email_Address" placeholder="*Email Address" required>
                         <textarea class="form_textarea" name="Question_or_Comment" placeholder="Message(s)"></textarea>
